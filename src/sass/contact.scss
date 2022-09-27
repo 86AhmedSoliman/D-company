@@ -1,0 +1,47 @@
+.contact-banner{
+    #banner-img{
+        background-image: url(../images/banner-contact.jpg);
+    }
+}
+
+// my code
+/*
+.contact-list{
+    list-style: none;
+    li{
+            color: $main-color;
+            margin-bottom: 15px;
+            span{
+                color: black;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+        }
+}
+.contact-social{
+    margin-right: 35px;
+    hr{
+        width: 80%;
+    }
+    .one-social{
+        border-radius: 50%;
+    }
+}
+*/
+
+.contact-us{
+    #contact-info{
+        svg{
+            color: $main-color !important;
+            margin-left: 5px;
+        }
+    }
+    input[type=email]{
+        text-align: right;
+    }
+}
+@media (max-width: 767px){
+    .contact-header{
+        margin-top: 50px;
+    }
+}
